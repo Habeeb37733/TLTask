@@ -27,8 +27,8 @@ class botomnavstate extends State {
 
       bottomNavigationBar: BottomNavigationBar(items: [
         BottomNavigationBarItem(icon: Icon(Icons.home),label:"HOME"),
-        BottomNavigationBarItem(icon: Icon(Icons.work_sharp),label:"SETTINGS"),
-        BottomNavigationBarItem(icon: Icon(Icons.wallet),label:"STATUS"),
+        BottomNavigationBarItem(icon: Icon(Icons.work_sharp),label:"WORK"),
+        BottomNavigationBarItem(icon: Icon(Icons.wallet),label:"WALLET"),
       ],
         currentIndex: statusindex,
         onTap: taptap,
